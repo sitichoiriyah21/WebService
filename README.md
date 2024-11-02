@@ -40,6 +40,9 @@ Ini adalah tugas uts mata kuliah Web Service
       ('Sale Pisang', 'cemilan', '5000', '200');
 ```
 
+![y](https://github.com/user-attachments/assets/7280cd3d-45a2-447c-8b4d-945a6b1e2fda)
+
+
 ### 3. Membuat file PHP untuk Web Service
 1. Buka vs code
 2. Buat file baru dan simpan sebagai `menus_api.php` di dalam folder `rest_menus`.
@@ -213,25 +216,29 @@ switch ($method) {
 
 ### 4. Pengujian dengan Postman
 #### GET `/api/[objek]`
-a. Menampilkan detail data berdasarkan ID
+a. Menampilkan semua data
 - Method: GET
 - URL: `http://localhost/rest_menus/menus_api.php/3`
 - Klik "Send"
 
 ![1](https://github.com/user-attachments/assets/1413a8d3-da40-4225-abb1-cafda121bdd7)
 
-b. Response 404 jika data tidak ditemukan
-
-#### GET `/api/[objek]/{id}`
-a. Menampilkan semua data
-- Method: GET
-- URL: `http://localhost/rest_menus/menus_api.php`
-- Klik "Send"
-
 b. Pencarian berdasarkan nama
 - Method: GET
 - URL: `http://localhost/rest_menus/menus_api.php/search?term= es potong`
 - Klik "Send"
+
+![2](https://github.com/user-attachments/assets/b34b0539-6923-4a08-9ab5-25fdeb05054a)
+
+#### GET `/api/[objek]/{id}`
+a. Menampilkan detail data berdasarkan ID
+- Method: GET
+- URL: `http://localhost/rest_menus/menus_api.php`
+- Klik "Send"
+
+![3](https://github.com/user-attachments/assets/3bf646ba-ff8e-44a6-87f4-37f60723f4df)
+
+b. Response 404 jika data tidak ditemukan
 
 #### POST `/api/[objek]`
 a. Menambah data baru
@@ -253,6 +260,9 @@ a. Menambah data baru
     ```
 - Klik "Send"
 
+![4](https://github.com/user-attachments/assets/b7b1e660-038a-48f5-81bb-0bc301b0ef3c)
+
+
 b. Validasi Input
 - Method: POST
 - URL: `http://localhost/rest_menus/menus_api.php`
@@ -271,7 +281,10 @@ b. Validasi Input
     }
     ```
 - Klik "Send"
-- akan menghasilkan eror karena category tidak valid/tidak diisi
+- Akan menghasilkan eror karena category tidak valid/tidak diisi
+
+![5](https://github.com/user-attachments/assets/2fe8b2f6-91a7-499d-8b66-526c7b7e962e)
+
 
 #### PUT `/api/[objek]/{id}`
 a. Mengupdate data berdasarkan ID
@@ -292,6 +305,9 @@ a. Mengupdate data berdasarkan ID
     }
     ```
 - Klik "Send"
+
+![6](https://github.com/user-attachments/assets/172c8687-ae2a-4439-b78f-38f42f06bc92)
+
 
 b. Validasi input
 c. Response 404 jika data tidak ditemukan
