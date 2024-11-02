@@ -2,10 +2,10 @@
 Ini adalah tugas uts mata kuliah Web Service
 
 
-# nama: Siti Choiriyah
-# nim: 21.01.55.0019
-# PROJECT KULINER KHAS PURWODADI
-# Tabel: menu makanan khas Purwodadi
+#### nama: Siti Choiriyah
+#### nim: 21.01.55.0019
+#### PROJECT KULINER KHAS PURWODADI
+#### Tabel: menu makanan khas Purwodadi
 - id (PK)
 - name
 - category
