@@ -218,6 +218,8 @@ a. Menampilkan detail data berdasarkan ID
 - URL: `http://localhost/rest_menus/menus_api.php/3`
 - Klik "Send"
 
+![1](https://github.com/user-attachments/assets/1413a8d3-da40-4225-abb1-cafda121bdd7)
+
 b. Response 404 jika data tidak ditemukan
 
 #### GET `/api/[objek]/{id}`
@@ -291,13 +293,14 @@ a. Mengupdate data berdasarkan ID
     ```
 - Klik "Send"
 
-b. validasi input
-c. response 404 jika data tidak ditemukan
+b. Validasi input
+c. Response 404 jika data tidak ditemukan
 
 #### DELETE `/api/[objek]/{id}`
 a. Menghapus data berdasarkan ID
 - Method: DELETE
 - URL: `http://localhost/rest_menus/menus_api.php/4` (untuk menghapus buku dengan ID 4)
 - Klik "Send"
+
 
 b. response 404 jika data tidak ditemukan
