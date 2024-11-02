@@ -213,26 +213,26 @@ switch ($method) {
 
 ### 4. Pengujian dengan Postman
 #### GET `/api/[objek]`
-- Menampilkan detail data berdasarkan ID
+a. Menampilkan detail data berdasarkan ID
 - Method: GET
 - URL: `http://localhost/rest_menus/menus_api.php/3`
 - Klik "Send"
 
-- Response 404 jika data tidak ditemukan
+b. Response 404 jika data tidak ditemukan
 
 #### GET `/api/[objek]/{id}`
-- Menampilkan semua data
+a. Menampilkan semua data
 - Method: GET
 - URL: `http://localhost/rest_menus/menus_api.php`
 - Klik "Send"
 
-- Pencarian berdasarkan nama
+b. Pencarian berdasarkan nama
 - Method: GET
 - URL: `http://localhost/rest_menus/menus_api.php/search?term= es potong`
 - Klik "Send"
 
 #### POST `/api/[objek]`
-- Menambah data baru
+a. Menambah data baru
 - Method: POST
 - URL: `http://localhost/rest_menus/menus_api.php`
 - Headers: 
@@ -251,7 +251,7 @@ switch ($method) {
     ```
 - Klik "Send"
 
-- Validasi Input
+b. Validasi Input
 - Method: POST
 - URL: `http://localhost/rest_menus/menus_api.php`
 - Headers: 
@@ -272,6 +272,7 @@ switch ($method) {
 - akan menghasilkan eror karena category tidak valid/tidak diisi
 
 #### PUT `/api/[objek]/{id}`
+a. Mengupdate data berdasarkan ID
 - Method: PUT
 - URL: `http://localhost/rest_menus/menus_api.php/4` (asumsikan ID menus baru adalah 4)
 - Headers: 
@@ -290,10 +291,13 @@ switch ($method) {
     ```
 - Klik "Send"
 
-- validasi input
-- response 404 jika data tidak ditemukan
+b. validasi input
+c. response 404 jika data tidak ditemukan
 
 #### DELETE `/api/[objek]/{id}`
+a. Menghapus data berdasarkan ID
 - Method: DELETE
 - URL: `http://localhost/rest_menus/menus_api.php/4` (untuk menghapus buku dengan ID 4)
 - Klik "Send"
+
+b. response 404 jika data tidak ditemukan
