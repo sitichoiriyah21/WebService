@@ -1,5 +1,5 @@
 # WebService
-Ini adalah tugas uts mata kuliah Web Service
+Ini adalah uts mata kuliah Web Service
 
 
 #### Nama: Siti Choiriyah
