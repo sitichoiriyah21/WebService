@@ -240,6 +240,9 @@ a. Menampilkan detail data berdasarkan ID
 
 b. Response 404 jika data tidak ditemukan
 
+![7](https://github.com/user-attachments/assets/e8e7a354-eb19-42d9-a1ed-65f6fe57c077)
+
+
 #### POST `/api/[objek]`
 a. Menambah data baru
 - Method: POST
@@ -318,5 +321,6 @@ a. Menghapus data berdasarkan ID
 - URL: `http://localhost/rest_menus/menus_api.php/4` (untuk menghapus buku dengan ID 4)
 - Klik "Send"
 
+![8](https://github.com/user-attachments/assets/f9ac9f60-06bf-454e-845f-76863bee4b34)
 
 b. response 404 jika data tidak ditemukan
